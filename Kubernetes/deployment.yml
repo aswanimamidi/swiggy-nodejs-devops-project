@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 300
       containers:
       - name: swiggy-app
-        image: 381492031718.dkr.ecr.us-east-1.amazonaws.com/test
+        image: 381492031718.dkr.ecr.us-east-1.amazonaws.com/swiggy
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
